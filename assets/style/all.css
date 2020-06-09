@@ -11469,4 +11469,61 @@ h1 {
   padding: 64px 190px 479px 191px;
 }
 
+.joint .more {
+  position: relative;
+  margin-right: 84px;
+  background-image: url(../images/51/5.png);
+  width: 259px;
+  height: 167px;
+}
+
+.joint .more a {
+  position: absolute;
+  text-decoration: none;
+  left: 27px;
+  top: 27px;
+  width: 315px;
+  height: 105px;
+  color: #AA0601;
+  font-size: 72px;
+  line-height: 108px;
+  padding-left: 32px;
+  background-color: white;
+  -webkit-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.joint .more a:hover::before {
+  content: "MORE";
+  position: absolute;
+  left: 32px;
+  -webkit-transform: translateY(-100px);
+      -ms-transform: translateY(-100px);
+          transform: translateY(-100px);
+  opacity: 0.7;
+}
+
+.joint .more a:hover::after {
+  content: "MORE";
+  position: absolute;
+  left: 32px;
+  -webkit-transform: translateY(-160px);
+      -ms-transform: translateY(-160px);
+          transform: translateY(-160px);
+  opacity: 0.5;
+}
+
+.joint .more a:hover .arrow {
+  margin-left: 32px;
+}
+
+.joint .arrow {
+  z-index: 1;
+  margin-left: 17px;
+  -webkit-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
 /*# sourceMappingURL=all.css.map */
