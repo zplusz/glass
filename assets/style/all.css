@@ -11483,7 +11483,7 @@ h1 {
 }
 
 .joint {
-  background-image: url(../images/2/nick-owuor-astro-nic-visuals-54Q_HvMWtVE-unsplash.png);
+  background: url(../images/2/nick-owuor-astro-nic-visuals-54Q_HvMWtVE-unsplash.png) no-repeat;
   padding: 64px 190px 479px 191px;
 }
 
@@ -11627,7 +11627,7 @@ h1 {
 
 .question .banner {
   height: 304px;
-  background-image: url(../images/72/72.png);
+  background: url(../images/72/72.png) no-repeat;
   position: relative;
   margin-bottom: 88px;
 }
