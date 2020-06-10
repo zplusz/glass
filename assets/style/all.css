@@ -11146,6 +11146,10 @@ dl {
   padding-left: 0;
 }
 
+p {
+  margin-bottom: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -11195,6 +11199,11 @@ img {
 .font-5 {
   font-size: 24px;
   line-height: 36px;
+}
+
+.font-6 {
+  font-size: 20px;
+  line-height: 23px;
 }
 
 .mb-0 {
@@ -11394,6 +11403,11 @@ header .logo {
 
 .footer {
   padding: 48px 20px 27.43px 20px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
 }
 
 .footer .phone {
@@ -11599,6 +11613,34 @@ h1 {
   height: 54px;
   margin-top: 42px;
   margin-bottom: 92px;
+}
+
+.question .banner {
+  height: 304px;
+  background-image: url(../images/72/72.png);
+  position: relative;
+  margin-bottom: 88px;
+}
+
+.question .banner .title {
+  position: absolute;
+  bottom: 0;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.question .banner .helpimg {
+  margin-left: 10.1px;
+}
+
+.question .main {
+  margin-bottom: 156px;
+}
+
+.question .main .title {
+  font-size: 32px;
+  line-height: 63px;
+  margin-bottom: 16px;
 }
 
 /*# sourceMappingURL=all.css.map */
