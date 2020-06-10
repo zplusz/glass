@@ -11397,7 +11397,7 @@ header .logo {
 }
 
 .footer .phone {
-  margin-right: 23px;
+  margin-left: 23px;
 }
 
 .footer .copyright {
@@ -11406,6 +11406,10 @@ header .logo {
 
 .footer .private {
   margin-right: 62px;
+}
+
+.footer .email {
+  margin-left: 12px;
 }
 
 .banner {
@@ -11524,6 +11528,77 @@ h1 {
   -webkit-transition: all .5s ease-out;
   -o-transition: all .5s ease-out;
   transition: all .5s ease-out;
+}
+
+.joint .bouble {
+  position: relative;
+  display: block;
+}
+
+.joint .bouble::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: .5;
+}
+
+.joint .bouble::after {
+  content: "Double A+";
+  position: absolute;
+  bottom: 40%;
+  left: 20%;
+  color: #AA0601;
+  font-size: 72px;
+  line-height: 108px;
+  font-weight: 600;
+}
+
+.joint .youth {
+  position: relative;
+  display: block;
+}
+
+.joint .youth::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: .5;
+}
+
+.joint .youth::after {
+  content: "YOUTH";
+  position: absolute;
+  bottom: 40%;
+  left: 25%;
+  color: #AA0601;
+  font-size: 72px;
+  line-height: 108px;
+  font-weight: 600;
+}
+
+.customer {
+  margin-top: -340px;
+}
+
+.contact {
+  padding-top: 64px;
+  width: 792px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.contact .btnsub {
+  width: 180px;
+  height: 54px;
+  margin-top: 42px;
+  margin-bottom: 92px;
 }
 
 /*# sourceMappingURL=all.css.map */
