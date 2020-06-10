@@ -1,0 +1,8 @@
+// 圓形
+@mixin circle ($size,$bgcolor){
+    border-radius: 50%;
+    height: $size;
+    width: $size;
+    background: $bgcolor;
+}
+

@@ -1,0 +1,171 @@
+// banner
+.banner{
+    height: 840px;
+    background-image: url(../images/68/68.png);
+    h3{
+        font-size: 36px;
+        line-height: 54px;
+    }
+}
+
+h1{
+    font-size: 64px;
+    line-height: 96px;
+}
+
+// service
+.service{
+    background-color :rgb(255, 242, 242);
+    padding: 64px 0 80px 0;
+    margin-bottom: 64px;
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+.service-item-list{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px; 
+    p{
+        width: 208px;
+        margin-bottom: 104px;
+    }
+}
+
+// classic
+.classic-item-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    .sunglasspic1{
+        
+    }
+    
+    .sun{
+        margin-left: 20px;
+    }
+}
+
+// joiny
+.joint{
+    background-image: url(../images/2/nick-owuor-astro-nic-visuals-54Q_HvMWtVE-unsplash.png);
+    padding: 64px 190px 479px 191px;
+    .more{
+        position: relative;
+        margin-right: 84px;
+        background-image: url(../images/51/5.png);
+        width: 259px;
+        height: 167px;
+        a{
+            display: block;
+            position: absolute;
+            text-decoration:none; 
+            left: 27px;
+            top: 27px;
+            width: 315px;
+            height: 105px;
+            color: #AA0601;
+            font-size: 72px;
+            line-height: 108px;
+            padding-left: 32px;
+            background-color: white;
+            &::before{
+                content: "MORE";
+                position: absolute;
+                left: 32px;
+                opacity: 0.6;
+                transition: all .65s .3s;
+            }
+            &::after{
+                content: "MORE";
+                position: absolute;
+                left: 32px;
+                opacity: 0.3;
+                transition: all .65s .3s;
+            }
+            &:hover{ 
+                &::before{
+                    transform: translateY(-100px);
+                }
+                &::after{
+                    transform: translateY(-160px);
+                }
+                .arrow{
+                    margin-left: 32px;
+                }
+            }
+        }
+    }
+    .arrow{
+        z-index: 1;
+        margin-left: 17px;
+        transition: all .65s .3s;
+    }
+    .bouble{
+        position: relative;
+        display: block;
+        &::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            opacity: .5;
+        }
+        &::after{
+            content: "Double A+";
+            position: absolute;
+            bottom: 40%;
+            left: 20%;
+            color: #AA0601;
+            font-size: 72px;
+            line-height: 108px;
+            font-weight: 600;
+        }
+    }
+    .youth{
+        position: relative;
+        display: block;
+        &::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            opacity: .5;
+        }
+        &::after{
+            content: "YOUTH";
+            position: absolute;
+            bottom: 40%;
+            left: 25%;
+            color: #AA0601;
+            font-size: 72px;
+            line-height: 108px;
+            font-weight: 600;
+        }
+    }
+}
+
+// customer
+.customer{
+    margin-top: -340px;
+}
+
+// contact
+.contact{
+    padding-top: 64px;
+    width: 792px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 30px;
+    .btnsub{
+        width: 180px;
+        height: 54px;
+        margin-top: 42px;
+        margin-bottom: 92px;
+    }
+}
