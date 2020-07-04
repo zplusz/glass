@@ -13601,4 +13601,127 @@ h1 {
   }
 }
 
+.address .banner {
+  height: 304px;
+  background-image: url(../images/72/72.png);
+  position: relative;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 992px) {
+  .address .banner {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .address .banner {
+    margin-bottom: 24px;
+  }
+}
+
+.address .banner .title {
+  position: absolute;
+  bottom: 0;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+@media (max-width: 992px) {
+  .address .banner .title {
+    font-size: 48px;
+    line-height: 80px;
+    bottom: -2px;
+    color: white;
+  }
+}
+
+@media (max-width: 767px) {
+  .address .banner .title {
+    font-size: 28px;
+    line-height: 80px;
+    bottom: -18px;
+    color: white;
+  }
+}
+
+.address .banner .point {
+  margin-left: 270px;
+  position: absolute;
+  bottom: 10px;
+}
+
+@media (max-width: 992px) {
+  .address .banner .point {
+    width: 48px;
+    height: 48px;
+    margin-left: 200px;
+    bottom: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .address .banner .point {
+    width: 24px;
+    height: 24px;
+    margin-left: 120px;
+    bottom: 7px;
+  }
+}
+
+.address .choose {
+  margin-bottom: 32px;
+}
+
+.address .choose .city {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.address .choose .choose-btn {
+  width: 266px;
+}
+
+.address .main {
+  margin-bottom: 126px;
+}
+
+.address .main img {
+  margin-right: 8px;
+}
+
+.address .main .title {
+  margin-top: 16px;
+  margin-left: 24px;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.address .main .ditail {
+  padding-left: 36px;
+  padding-right: 36px;
+  margin-bottom: 12px;
+}
+
+.address .main .ditail .ttime {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.address .main .ditail .adr {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.address .main .ditail .pin {
+  margin-top: -28px;
+  margin-left: 3px;
+}
+
+@media (max-width: 767px) {
+  .address .main .ditail .pin {
+    margin-top: 0px;
+  }
+}
+
 /*# sourceMappingURL=all.css.map */
