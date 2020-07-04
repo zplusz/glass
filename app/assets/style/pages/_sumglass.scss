@@ -1,0 +1,145 @@
+.sunglass{
+    padding-right: 15px;
+    padding-left: 15px;
+    .nav{
+        height: 309px;
+            @include ipad(){
+                margin-top: -37px;
+            }
+            @include iphone(){
+                height: 144px;
+                margin-top: -53px;
+            }
+            .img-1{
+                background-image: url(../images/80/80.png);
+            }
+            .img-2{
+                background-image: url(../images/15/15.png);
+            }
+        img{
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+    }
+    .title{
+        margin-top: 88px;
+        margin-bottom: 48px;
+        li:nth-child(1){
+            font-size: 42px;
+            line-height: 63px;
+        }
+        li:nth-child(2){
+            font-size: 32px;
+            line-height: 63px;
+            font-weight: lighter;
+        }    
+        @include ipad(){
+            margin-top: 40px;
+            margin-bottom: 32px;
+            li:nth-child(1){
+                font-size: 32px;
+                line-height: 48px;
+            }
+            li:nth-child(2){
+                font-size: 24px;
+                line-height: 36px;
+                font-weight: lighter;
+            } 
+        }
+        @include iphone(){
+            margin-top: 24px;
+            margin-bottom: 28px;
+            li:nth-child(1){
+                font-size: 24px;
+                line-height: 28px;
+            }
+            li:nth-child(2){
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: lighter;
+            } 
+        }
+    }
+    .product{
+        margin-bottom: 104px;
+        @include ipad(){
+            margin-bottom: 72px;
+        }
+        @include ipad(){
+            margin-bottom: 52px;
+        }
+        img{
+            @include iphone(){
+                height: 250px;
+            }
+            &:nth-child(2){
+                display: none;
+            }
+        }
+        .product-item{
+            li:nth-child(1){
+                font-size: 24px;
+                line-height: 40px;
+            }
+            li:nth-child(2){
+                font-size: 24px;
+                line-height: 40px;
+                color: #AA0601;
+            }
+            @include ipad(){
+                display: flex;
+                justify-content: space-between;
+                li:nth-child(1){
+                    font-size: 24px;
+                    line-height: 30px;
+                }
+                li:nth-child(2){
+                    font-size: 24px;
+                    line-height: 30px;
+                    color: #AA0601;
+                }
+            } 
+            @include iphone(){
+                li:nth-child(1){
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+                li:nth-child(2){
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #AA0601;
+                }  
+            }       
+        } 
+        .color{
+            li:nth-child(1){
+                width: 24px;
+                height: 24px;
+                background-color: #5F3E2D;
+                border-radius: 4px;
+                margin-right: 8px;
+            }
+            li:nth-child(2){
+                width: 24px;
+                height: 24px;
+                background-color: #B75929;
+                border-radius: 4px;
+            }
+            @include iphone(){
+                li:nth-child(1){
+                    width: 16px;
+                    height: 16px;
+                    background-color: #5F3E2D;
+                    border-radius: 4px;
+                    margin-right: 8px;
+                }
+                li:nth-child(2){
+                    width: 16px;
+                    height: 16px;
+                    background-color: #B75929;
+                    border-radius: 4px;
+                }  
+            }   
+        }
+    } 
+}

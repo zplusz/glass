@@ -1,0 +1,89 @@
+.question{
+    .banner{
+        height: 304px;
+        background-image: url(../images/72/72.png);
+        position: relative;
+        margin-bottom: 88px;
+        @include ipad(){
+            margin-bottom: 40px;
+        }
+        @include iphone(){
+            margin-bottom: 24px;
+        }
+        .title{
+            position: absolute;
+            bottom: 0;
+            font-size: 64px;
+            line-height: 80px;
+            @include ipad(){
+                font-size: 48px;
+                line-height: 80px;
+                bottom: -2px;
+                color: white;
+            }
+            @include iphone(){
+                font-size: 28px;
+                line-height: 80px;
+                bottom: -18px;
+                color: white;
+            }
+        }
+        .helpimg{      
+            margin-left: 270px;
+            position: absolute;
+            bottom: 10px;
+            @include ipad(){
+                width: 48px;
+                height: 48px;
+                margin-left: 200px;
+                bottom: 14px;
+            }
+            @include iphone(){
+                width: 24px;
+                height: 24px;
+                margin-left: 120px;
+                bottom: 7px;
+            }
+        }
+    }
+    .main{
+        margin-bottom: 156px;
+        .title{
+            font-size: 32px;
+            line-height: 63px;
+            margin-bottom: 16px;
+            @include ipad(){
+                font-size: 28px;
+                line-height: 63px;
+            }
+            @include iphone(){
+                font-size: 20px;
+                line-height: 63px;
+            }
+        }
+        .qa-title{
+            font-size: 20px;
+            line-height: 23px;
+            @include ipad(){
+                font-size: 16px;
+                line-height: 24px;
+            }
+            @include iphone(){
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        .qa-answer{
+            font-size: 16px;
+            line-height: 24px;
+            @include ipad(){
+                font-size: 16px;
+                line-height: 24px;
+            }
+            @include iphone(){
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+    }
+}
